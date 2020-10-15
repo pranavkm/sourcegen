@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Different.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Analyzer Include="C:\Users\prkrishn\source\repos\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Razor.Language.dll" />
+    <Analyzer Include="C:\Users\prkrishn\source\repos\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\Microsoft.CodeAnalysis.Razor.dll" />
+    <Analyzer Include="C:\Users\prkrishn\source\repos\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\ClassLibrary2.dll" />
+
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="5.0.0-rc.2.20475.17" />
+
+    <AdditionalFiles Include="Different.razor" />
+
+    <AdditionalFiles Include="Test.razor" />
+    <AdditionalFiles Include="Index.razor" />
+  </ItemGroup>
+
+</Project>
